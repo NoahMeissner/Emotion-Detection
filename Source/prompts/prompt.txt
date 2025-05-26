@@ -1,0 +1,4 @@
+Please categorise the following tweet in the social media for the Valence category as ‘negative’, ‘neutral’ or ‘positive’.
+For the Arousal category as, ‘high’, ‘low’, ‘medium’
+Your answer for each category MUST be one of [‘negative’, ‘neutral’, ‘positive’] for Valence [‘high’, ‘low’, ‘medium’] for arousal and should be in lower case.
+Text: [TEXT]
