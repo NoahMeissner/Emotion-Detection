@@ -1,7 +1,14 @@
 ### Motivation
-Social platforms are a primary source of news, but also facilitate misinformation. Anger and other negative emotions help misinformation spread. Traditional fact-checking is no longer enough, so automated detection is needed. This must address emotional manipulation and the evolving nature of misinformation. 
-In this paper, we fine-tune three transformer models to improve emotion detection and fake news identification. Additionally, a Gradient Boosting model is trained as a baseline for fake news detection. Our approach focuses on incorporating emotional features into fake news detection, as emotional cues, particularly low arousal levels, appear to be important indicators of misinformation. Our results show that RoBERTa performs well in detecting valence, while BERT achieves strong outcomes in fake news detection, surpassing the Gradient Boosting model in all key metrics.
-
+Emotions play a central role in how information spreads on social media. Traditional
+approachestoemotiondetectionoftenrelyonfixed,categoricallabels,butthesestruggletocapturethe
+nuanced, context-dependent affective expressions that are common in online discourse. In this study,
+wetakeadimensionalapproachtoemotion,usingtheCircumplexModelofAffecttomodelemotional
+statesalongcontinuousvalenceandarousalaxes.Wefine-tunedtwoRoBERTamodelstopredictthese
+dimensions from tweets and evaluated their performance using the TruthSeeker2023 dataset. Our
+results demonstrate that dimensional modeling facilitates the more expressive and accurate detection
+of affective content than conventional emotion classifiers. These findings highlight the advantages of
+dimensional emotion modelling for affective analysis and demonstrate its relevance to understanding
+emotional mechanisms.
 ### Installation Guide
 1. Step Clone Repository
 2. Download Truth Seeker Dataset 2023
